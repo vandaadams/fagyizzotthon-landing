@@ -71,6 +71,23 @@ span {
 
 a {
   margin-left: 16px;
-  text-decoration: none;
   color: rgb(50, 50, 50);
+}
+
+a:hover {
+  color: rgba(50, 50, 50, 0.7);
+}
+
+@media (max-width: 640px) {
+  .marquee {
+    font-size: 5vw;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
+
+  .contact {
+    font-size: 4vw;
+  }
 }
