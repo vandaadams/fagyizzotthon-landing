@@ -81,6 +81,8 @@ a:hover {
 @media (max-width: 640px) {
   .marquee {
     font-size: 1.5rem;
+    position: absolute;
+    top: 8vh;
   }
 
   .logo {
@@ -89,5 +91,7 @@ a:hover {
 
   .contact {
     font-size: 1rem;
+    position: absolute;
+    bottom: 8vh;
   }
 }
